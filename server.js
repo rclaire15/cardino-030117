@@ -15,7 +15,7 @@ app.get('/about', function(req, res){
   res.sendFile(path.join(__dirname, 'views/about.html'));
 });
 app.get('/calculator', function(req, res){
-  res.sendFile(path.join).sendFile(path.join(__dirname, 'views/calculator.html'));
+  res.sendFile(path.join(__dirname, 'views/calculator.html'));
 });
 app.get('*', function(req, res){
   res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
