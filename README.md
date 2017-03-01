@@ -10,8 +10,12 @@
 * $ git add .
 * $ git commit -m "anhyeong!"
 * $ git remote add cardino-030117 https://github.com/rclaire15/cardino-030117.git
-
 * $ git push -u cardino-030117 master
 * $ heroku login
 * $ heroku create cardino-030117
+* $ git push -u heroku master
+
+* $ git add .
+* $ git commit -m "anhyeong!"
+* $ git push -u cardino-030117 master
 * $ git push -u heroku master
